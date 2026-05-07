@@ -1,0 +1,1 @@
+La terminal es importante para un desarrollador porque permite organizar archivos y carpetas de manera rápida. También ayuda a ejecutar comandos y trabajar de forma más eficiente dentro de un proyecto. Gracias a la terminal se pueden crear archivos, mover carpetas y usar herramientas como Git.
