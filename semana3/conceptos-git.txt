@@ -1,0 +1,3 @@
+Repositorio: Es como una carpeta inteligente donde se guarda todo el proyecto. No solo guarda los archivos actuales,sino tambien todo el historial de cambios que se han hecho desde el inicio.
+Commit: Es una "foto" o captura de tus archivos en un momento especifico. Sirve para guardar un avance importante y ponerle un mensaje que explique que cambiaste.
+Push: Es la accion de subir tus fotos (commits) desde tu computador personal hacia un servidor remoto,como Github,para que otros lo vean o para tener un respaldo en la nube.
