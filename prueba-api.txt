@@ -1,0 +1,11 @@
+Al enviar una petición POST a la ruta /registro con el JSON de María, el servidor Express procesa los datos gracias al middleware express.json(). 
+
+El servidor responde con un estado HTTP 200 OK y devuelve el siguiente objeto JSON:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Esto confirma que el backend capturó correctamente las variables a través de 'req.body' y las retornó con éxito.

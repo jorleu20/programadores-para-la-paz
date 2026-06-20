@@ -3,24 +3,27 @@ const app = express();
 
 app.use(express.json());
 
-app.get('/', (req, res) => {
-  res.send('Servidor activo');
-});
-
-app.get('/saludo', (req, res) => {
-  res.send('Hola comunidad');
-});
-
-app.get('/mensaje/:nombre', (req, res) => {
-  const nombre = req.params.nombre;
-  res.send('Hola ' + nombre);
-});
-
-app.post('/reporte', (req, res) => {
+// Ruta para el registro de usuarios
+app.post('/registro', (req, res) => {
+  const nombre = req.body.nombre;
   const mensaje = req.body.mensaje;
+
   res.json({
-    estado: "Reporte recibido",
+    estado: "Datos recibidos",
+    nombre: nombre,
     mensaje: mensaje
+  });
+});
+
+// Ruta para simular el reporte de incidencias comunitarias
+app.post('/incidencia', (req, res) => {
+  const tipo = req.body.tipo;
+  const descripcion = req.body.descripcion;
+
+  res.json({
+    mensaje: "Incidencia registrada",
+    tipo: tipo,
+    descripcion: descripcion
   });
 });
 
